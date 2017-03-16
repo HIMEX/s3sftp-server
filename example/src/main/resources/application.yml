@@ -1,0 +1,17 @@
+sftp:
+    port: 22
+    hostkey-algorithm: "RSA"
+    hostkey-private: |
+        -----BEGIN RSA PRIVATE KEY-----
+        MIIEpQIBAAKCAQEA5TNkvYjGmJDwanAy00HKm8hmm3gkPVIg/ocSUJ7z9EcoSysI
+        ...
+        6vp8rs/9cEnLcVtyWcp9UmFW/yq7YFKD+UrpLtnU02syof1kXyMU3Ck=
+        -----END RSA PRIVATE KEY-----
+    users:
+        admin: "adminspassword"
+s3:
+    uri: "s3://s3-${s3.zone}.amazonaws.com/"
+    bucket: "${s3.bucket-name}"
+logging:
+  level:
+    root: info
