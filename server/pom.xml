@@ -6,7 +6,7 @@
     <parent>
         <artifactId>s3sftp-parent</artifactId>
         <groupId>com.hubio</groupId>
-        <version>1.0.0-SNAPSHOT</version>
+        <version>1.0.0</version>
     </parent>
 
     <artifactId>s3sftp-server</artifactId>
