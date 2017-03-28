@@ -14,7 +14,7 @@
 
     <groupId>com.hubio</groupId>
     <artifactId>s3sftp-parent</artifactId>
-    <version>1.0.0-SNAPSHOT</version>
+    <version>1.0.0</version>
 
     <name>S3 SFTP Server (parent)</name>
     <description>SFTP Server to access an Amazon S3 Bucket</description>
